@@ -1,0 +1,845 @@
+Stationary DataFrames:-------------------------------------------------------
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.966e+02, tolerance: 1.421e+00
+  model = cd_fast.enet_coordinate_descent(
+Best alpha:  0.026681676024471915
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.966e+02, tolerance: 1.421e+00
+  model = cd_fast.enet_coordinate_descent(
+F
+Lasso for F has selected the following features:
+ Index(['Open', 'Close', 'High', 'MA2', 'Other Current Assets', 'Current Debt',
+       'Total Current Liabilities', 'Retained Earnings', 'Working Capital',
+       'Book Value Per Share', 'Other Investing Activities',
+       'Other Financing Activities', 'Shares Outstanding (Basic)',
+       'Effective Tax Rate', 'PE Ratio', 'PB Ratio', 'Current Ratio'],
+      dtype='object')
+Best alpha:  0.03162277660168379
+GM
+Lasso for GM has selected the following features:
+ Index(['MA1', 'MA2', 'Cash & Equivalents', 'Total Current Assets',
+       'Long-Term Investments', 'Other Long-Term Assets', 'Accounts Payable',
+       'Current Debt', 'Common Stock', 'Comprehensive Income',
+       'Net Cash Per Share', 'Other Investing Activities', 'Net Cash Flow',
+       'Gross Profit', 'Interest Expense / Income', 'Net Income Growth',
+       'Shares Outstanding (Basic)', 'Market Cap', 'EMA50', 'MACD'],
+      dtype='object')
+Best alpha:  0.03162277660168379
+TSLA
+Lasso for TSLA has selected the following features:
+ Index(['Volume', 'MA1', 'Other Current Assets', 'Deferred Revenue',
+       'Current Debt', 'Long-Term Debt', 'Debt Growth', 'Common Stock',
+       'Retained Earnings', 'Working Capital', 'Other Operating Activities',
+       'Operating Cash Flow Growth', 'Other Investing Activities',
+       'Investing Cash Flow', 'Financing Cash Flow', 'Revenue',
+       'Research & Development', 'Income Tax', 'Net Income Growth',
+       'Shares Outstanding (Diluted)', 'Shares Change', 'EPS Growth',
+       'Debt / Equity Ratio', 'Buyback Yield / Dilution', 'MACD', 'ADX', 'CMF',
+       'FI'],
+      dtype='object')
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.079e+02, tolerance: 1.179e-01
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.079e+02, tolerance: 1.179e-01
+  model = cd_fast.enet_coordinate_descent(
+Best alpha:  0.0001531413764554507
+RACE
+Lasso for RACE has selected the following features:
+ Index(['Open', 'Close', 'High', 'Low', 'Volume', 'MA1', 'MA2',
+       'Short-Term Investments', 'Cash Growth', 'Inventory',
+       'Property, Plant & Equipment', 'Long-Term Investments',
+       'Goodwill and Intangibles', 'Total Liabilities', 'Total Debt',
+       'Net Cash / Debt Growth', 'Net Income_x',
+       'Depreciation & Amortization_x', 'Other Operating Activities',
+       'Operating Cash Flow Growth', 'Other Investing Activities',
+       'Investing Cash Flow', 'Debt Issued / Paid',
+       'Other Financing Activities', 'Financing Cash Flow',
+       'Free Cash Flow Growth', 'Revenue', 'Revenue Growth (YoY)',
+       'Cost of Revenue', 'Gross Profit', 'Selling, General & Admin',
+       'Operating Expenses', 'Operating Income', 'Income Tax', 'Net Income_y',
+       'Net Income Growth', 'EPS (Diluted)', 'EPS Growth', 'Dividend Growth',
+       'Gross Margin', 'Operating Margin', 'Free Cash Flow Margin_y', 'EBITDA',
+       'EBITDA Margin', 'EBIT Margin', 'Market Cap', 'Market Capitalization',
+       'Market Cap Growth', 'Enterprise Value', 'PS Ratio', 'PB Ratio', 'RSI',
+       'EMA14', 'EMA50', 'MACD', 'ADX', 'CMF', 'SO', 'LBOLLINGER',
+       'HBOLLINGER', 'FI'],
+      dtype='object')
+Best alpha:  0.0311707228314113
+TM
+Lasso for TM has selected the following features:
+ Index(['Cash Growth', 'Other Long-Term Assets', 'Debt Growth',
+       'Depreciation & Amortization_x', 'Financing Cash Flow',
+       'Net Income Growth', 'EPS (Basic)', 'EPS (Diluted)', 'Dividend Growth',
+       'Depreciation & Amortization_y', 'Enterprise Value', 'PE Ratio',
+       'EMA14', 'LBOLLINGER', 'FI'],
+      dtype='object')
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.212e-01, tolerance: 2.871e-01
+  model = cd_fast.enet_coordinate_descent(
+Best alpha:  0.011810985683079298
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.212e-01, tolerance: 2.871e-01
+  model = cd_fast.enet_coordinate_descent(
+HMC
+Lasso for HMC has selected the following features:
+ Index(['Open', 'Close', 'Low', 'Receivables', 'Debt Growth',
+       'Financing Cash Flow', 'EPS Growth', 'EBITDA Margin',
+       'Enterprise Value', 'PE Ratio', 'LBOLLINGER'],
+      dtype='object')
+
+Stationary Lagged DataFrames:-------------------------------------------------------
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.905e+01, tolerance: 3.406e-01
+  model = cd_fast.enet_coordinate_descent(
+Best alpha:  0.0010946357677451397
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.905e+01, tolerance: 3.406e-01
+  model = cd_fast.enet_coordinate_descent(
+F
+Lasso for F has selected the following features:
+ Index(['Open', 'Close', 'Low', 'Cash & Cash Equivalents',
+       'Other Current Assets', 'Long-Term Investments', 'Current Debt',
+       'Total Current Liabilities', 'Common Stock', 'Retained Earnings',
+       'Comprehensive Income', 'Working Capital', 'Net Income_x',
+       'Other Financing Activities', 'Free Cash Flow Growth',
+       'Operating Expenses', 'Net Income_y', 'Shares Outstanding (Basic)',
+       'Effective Tax Rate', 'Market Cap', 'PE Ratio', 'Current Ratio',
+       'Total Shareholder Return', 'RSI', 'SO', 'LBOLLINGER', 'FI',
+       'Volume_lag9', 'Volume_lag12', 'Volume_lag13', 'Volume_lag18',
+       'Volume_lag20', 'MA2_lag1', 'MA2_lag2', 'MA2_lag3', 'Market Cap_lag1',
+       'Market Cap_lag2', 'Market Cap_lag3', 'Market Cap_lag5',
+       'Market Cap_lag6','Market Cap_lag11', 'Market Cap_lag13', 'Market Cap_lag14',
+       'Market Cap_lag15', 'RSI_lag11', 'RSI_lag19', 'RSI_lag20', 'MACD_lag18',
+       'MACD_lag19', 'MACD_lag20', 'ADX_lag11', 'ADX_lag12', 'ADX_lag20',
+       'CMF_lag14', 'CMF_lag15', 'CMF_lag20', 'LBOLLINGER_lag7',
+       'LBOLLINGER_lag8', 'LBOLLINGER_lag9', 'FI_lag1', 'FI_lag4', 'FI_lag5',
+       'FI_lag8', 'FI_lag9', 'FI_lag10', 'FI_lag11', 'FI_lag16', 'FI_lag17',
+       'FI_lag18', 'Target_lag7', 'Short-Term Investments_lag1',
+       'Short-Term Investments_lag2', 'Cash & Cash Equivalents_lag1',
+       'Other Current Assets_lag1', 'Other Current Assets_lag2',
+       'Other Current Assets_lag3', 'Other Current Assets_lag4',
+       'Other Current Assets_lag5', 'Total Current Assets_lag1',
+       'Other Long-Term Assets_lag3', 'Other Long-Term Assets_lag4',
+       'Accounts Payable_lag5', 'Current Debt_lag2', 'Current Debt_lag4',
+       'Current Debt_lag5', 'Total Current Liabilities_lag3',
+       'Total Current Liabilities_lag4', 'Total Current Liabilities_lag5',
+       'Other Current Liabilities_lag1', 'Long-Term Debt_lag3',
+       'Common Stock_lag2', 'Common Stock_lag3', 'Retained Earnings_lag1',
+       'Retained Earnings_lag2', 'Retained Earnings_lag3',
+       'Retained Earnings_lag4', 'Comprehensive Income_lag1',
+       'Comprehensive Income_lag2', 'Comprehensive Income_lag3',
+       'Comprehensive Income_lag4', 'Comprehensive Income_lag5',
+       "Shareholders' Equity_lag3", 'Net Cash / Debt_lag1',
+       'Net Cash / Debt_lag3', 'Net Cash / Debt_lag4', 'Net Cash / Debt_lag5',
+       'Net Cash Per Share_lag4', 'Working Capital_lag1',
+       'Working Capital_lag2', 'Working Capital_lag3', 'Working Capital_lag4',
+       'Other Investing Activities_lag4', 'Other Financing Activities_lag1',
+       'Other Financing Activities_lag2', 'Other Financing Activities_lag4',
+       'Other Financing Activities_lag5', 'Free Cash Flow Growth_lag2',
+       'Free Cash Flow Growth_lag3', 'Revenue_lag5',
+       'Revenue Growth (YoY)_lag1', 'Revenue Growth (YoY)_lag5', 'Net Income Growth_lag4',
+       'Net Income Growth_lag5', 'Shares Outstanding (Basic)_lag2',
+       'Shares Outstanding (Basic)_lag3', 'Shares Outstanding (Basic)_lag5',
+       'Effective Tax Rate_lag2', 'Effective Tax Rate_lag3',
+       'Effective Tax Rate_lag4', 'PE Ratio_lag1', 'PE Ratio_lag2',
+       'PE Ratio_lag4', 'PE Ratio_lag5', 'PB Ratio_lag3', 'PB Ratio_lag5',
+       'Current Ratio_lag1', 'Current Ratio_lag4', 'Current Ratio_lag5'],
+      dtype='object', length=138)
+Best alpha:  0.03162277660168379
+GM
+Lasso for GM has selected the following features:
+ Index(['MA1', 'Other Long-Term Assets', 'Other Current Liabilities',
+       'Debt Growth', 'Other Investing Activities', 'Investing Cash Flow',
+       'Market Cap', 'LBOLLINGER', 'FI', 'Market Cap_lag1', 'EMA50_lag9',
+       'EMA50_lag12', 'EMA50_lag13', 'EMA50_lag14', 'EMA50_lag15',
+       'EMA50_lag16', 'MACD_lag20', 'HBOLLINGER_lag8', 'HBOLLINGER_lag9',
+       'FI_lag3', 'FI_lag4', 'FI_lag5', 'FI_lag6', 'FI_lag19',
+       'Other Long-Term Assets_lag2', 'Other Long-Term Assets_lag3',
+       'Other Long-Term Assets_lag4', 'Other Long-Term Assets_lag5',
+       'Total Long-Term Assets_lag5', 'Other Current Liabilities_lag2',
+       'Debt Growth_lag5', 'Net Cash / Debt_lag4', 'Net Cash / Debt_lag5',
+       'Net Cash Per Share_lag1', 'Net Cash Per Share_lag2',
+       'Net Cash Per Share_lag4', 'Capital Expenditures_lag2',
+       'Capital Expenditures_lag4', 'Capital Expenditures_lag5',
+       'Other Investing Activities_lag2', 'Income Tax_lag2', 'Income Tax_lag4',
+       'Effective Tax Rate_lag1', 'Effective Tax Rate_lag2',
+       'Effective Tax Rate_lag3', 'Effective Tax Rate_lag4',
+       'Effective Tax Rate_lag5', 'PE Ratio_lag5'],
+      dtype='object')
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.785e+00, tolerance: 2.130e-01
+  model = cd_fast.enet_coordinate_descent(
+Best alpha:  0.03162277660168379
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.785e+00, tolerance: 2.130e-01
+  model = cd_fast.enet_coordinate_descent(
+TSLA
+Lasso for TSLA has selected the following features:
+ Index(['MA1', 'MA2', 'Current Debt', 'Debt Growth', 'Working Capital',
+       'Operating Cash Flow Growth', 'Other Investing Activities',
+       'Investing Cash Flow', 'Revenue', 'Revenue Growth (YoY)', 'EMA50',
+       'MACD', 'ADX', 'CMF', 'Volume_lag4', 'Volume_lag5', 'Volume_lag6',
+       'Volume_lag7', 'Volume_lag14', 'MA1_lag3', 'MA1_lag4', 'MA1_lag5',
+       'MA1_lag6', 'MA2_lag1', 'MACD_lag20', 'CMF_lag10', 'CMF_lag12',
+       'CMF_lag14', 'LBOLLINGER_lag9', 'FI_lag1', 'FI_lag2', 'FI_lag3',
+       'FI_lag4', 'FI_lag14', 'FI_lag15', 'FI_lag16', 'FI_lag17', 'FI_lag20',
+       'Target_lag14', 'Target_lag15', 'Deferred Revenue_lag1',
+       'Current Debt_lag1', 'Current Debt_lag2', 'Current Debt_lag3',
+       'Current Debt_lag4', 'Debt Growth_lag1', 'Debt Growth_lag2',
+       'Debt Growth_lag3', 'Debt Growth_lag4', 'Debt Growth_lag5',
+       'Net Cash / Debt_lag5', 'Working Capital_lag1',
+       'Operating Cash Flow Growth_lag1', 'Operating Cash Flow Growth_lag2',
+       'Operating Cash Flow Growth_lag5', 'Other Investing Activities_lag4',
+       'Investing Cash Flow_lag1', 'Investing Cash Flow_lag2',
+       'Investing Cash Flow_lag3', 'Investing Cash Flow_lag4',
+       'Investing Cash Flow_lag5', 'Free Cash Flow Growth_lag3',
+       'Free Cash Flow Growth_lag4', 'Free Cash Flow Growth_lag5',
+       'Revenue Growth (YoY)_lag1', 'Income Tax_lag2', 'Income Tax_lag3',
+       'Income Tax_lag4', 'Income Tax_lag5', 'Net Income Growth_lag3',
+       'Net Income Growth_lag4', 'Net Income Growth_lag5', 'EBITDA_lag3',
+       'EBITDA_lag4', 'EBITDA_lag5', 'PE Ratio_lag1'],
+      dtype='object')
+Best alpha:  0.03162277660168379
+RACE
+Lasso for RACE has selected the following features:
+ Index(['MA2', 'Operating Cash Flow Growth', 'Debt Issued / Paid',
+       'EPS (Diluted)', 'Dividend Growth', 'Effective Tax Rate', 'EMA50',
+       'CMF', 'FI', 'Volume_lag10', 'Volume_lag12', 'Volume_lag20', 'MA1_lag9',
+       'MA1_lag10', 'MA1_lag11', 'MA1_lag12', 'MA1_lag13', 'MA1_lag14',
+       'MA1_lag15', 'MA2_lag1', 'MA2_lag18', 'MA2_lag19', 'MACD_lag20',
+       'CMF_lag9', 'LBOLLINGER_lag3', 'LBOLLINGER_lag5', 'LBOLLINGER_lag10',
+       'LBOLLINGER_lag11', 'LBOLLINGER_lag17', 'LBOLLINGER_lag18',
+       'LBOLLINGER_lag19', 'LBOLLINGER_lag20', 'HBOLLINGER_lag6',
+       'HBOLLINGER_lag7', 'HBOLLINGER_lag12', 'HBOLLINGER_lag13',
+       'HBOLLINGER_lag14', 'Operating Cash Flow Growth_lag1',
+       'Operating Cash Flow Growth_lag2', 'Operating Cash Flow Growth_lag3',
+       'Operating Cash Flow Growth_lag5', 'Debt Issued / Paid_lag1',
+       'Other Financing Activities_lag5', 'EPS (Diluted)_lag1',
+       'EPS (Diluted)_lag2', 'EPS (Diluted)_lag3', 'EPS (Diluted)_lag4',
+       'EPS (Diluted)_lag5', 'EPS Growth_lag4', 'Dividend Growth_lag4',
+       'Effective Tax Rate_lag1'],
+      dtype='object')
+Best alpha:  0.03162277660168379
+TM
+Lasso for TM has selected the following features:
+ Index(['Close', 'Cash Growth', 'Debt Growth', 'Net Income Growth',
+       'EPS (Basic)', 'EPS Growth', 'Dividend Growth', 'Gross Margin',
+       'PE Ratio', 'EMA14', 'LBOLLINGER', 'Volume_lag20', 'Market Cap_lag6',
+       'EMA14_lag3', 'MACD_lag1', 'LBOLLINGER_lag9', 'LBOLLINGER_lag18',
+       'LBOLLINGER_lag19', 'LBOLLINGER_lag20', 'HBOLLINGER_lag7',
+       'HBOLLINGER_lag8', 'HBOLLINGER_lag9', 'HBOLLINGER_lag11',
+       'HBOLLINGER_lag12', 'HBOLLINGER_lag13', 'FI_lag3', 'FI_lag4',
+       'FI_lag10', 'FI_lag15', 'FI_lag16', 'FI_lag17', 'FI_lag18',
+       'Cash Growth_lag2', 'Cash Growth_lag4', 'Cash Growth_lag5',
+       'Debt Growth_lag4', 'Other Investing Activities_lag4',
+       'Debt Issued / Paid_lag3', 'Financing Cash Flow_lag1',
+       'Financing Cash Flow_lag3', 'Net Income Growth_lag1',
+       'Net Income Growth_lag2', 'Net Income Growth_lag3',
+       'Net Income Growth_lag4', 'Net Income Growth_lag5', 'EPS (Basic)_lag1',
+       'EPS Growth_lag1', 'EPS Growth_lag3', 'EPS Growth_lag4',
+       'Dividend Growth_lag1', 'Dividend Growth_lag2', 'Dividend Growth_lag3',
+       'Dividend Growth_lag4', 'Dividend Growth_lag5', 'Gross Margin_lag1',
+       'Gross Margin_lag2', 'Gross Margin_lag3', 'Gross Margin_lag4',
+       'Free Cash Flow Margin_y_lag5', 'Enterprise Value_lag3',
+       'Enterprise Value_lag4', 'Enterprise Value_lag5', 'PE Ratio_lag5'],
+      dtype='object')s
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.848e-01, tolerance: 2.305e-01
+  model = cd_fast.enet_coordinate_descent(
+Best alpha:  0.03162277660168379
+/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_coordinate_descent.py:631: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.848e-01, tolerance: 2.305e-01
+  model = cd_fast.enet_coordinate_descent(
+HMC
+Lasso for HMC has selected the following features:
+ Index(['Open', 'Close', 'Low', 'Debt Growth', 'Financing Cash Flow',
+       'EPS Growth', 'Enterprise Value', 'PE Ratio', 'Open_lag4', 'Low_lag4',
+       'Low_lag5', 'Debt Growth_lag1', 'Debt Growth_lag2', 'Debt Growth_lag3',
+       'Debt Growth_lag4', 'Debt Growth_lag5', 'Financing Cash Flow_lag1',
+       'Financing Cash Flow_lag2', 'Financing Cash Flow_lag3',
+       'Financing Cash Flow_lag4', 'PE Ratio_lag2', 'PE Ratio_lag3',
+       'PE Ratio_lag4', 'PE Ratio_lag5'],
+      dtype='object')
+
+PCA LAGS NON_STATIONARY ALL:
+Brand: F
+Component 1: 0.26864785878413705
+  Net Income Growth_lag2: 0.7182825177661567
+  Net Income Growth: -0.6956003973774436
+  Net Income Growth_lag3: -0.013951082559370331
+  Net Income Growth_lag1: -0.003959688773599637
+  Total Current Liabilities_lag4: 1.4434153081812824e-07
+Component 2: 0.5324484802029106
+  Net Income Growth: -0.6844049525300518
+  Net Income Growth_lag2: -0.6563973790197695
+  Net Income Growth_lag3: 0.3101768490769566
+  Net Income Growth_lag1: 0.06725075512400505
+  Net Income Growth_lag5: 1.988123840546968e-07
+Component 3: 0.7812645334434425
+  Net Income Growth_lag3: -0.9443808719384006
+  Net Income Growth_lag2: -0.21732767594202404
+  Net Income Growth: -0.2062452925603793
+  Net Income Growth_lag1: 0.1355593201616856
+  Net Income Growth_lag4: 2.700677300912336e-07
+Component 4: 0.9999999997265703
+  Net Income Growth_lag1: -0.9884762655304582
+  Net Income Growth_lag3: -0.10835339546422337
+  Net Income Growth_lag2: -0.07733942563012065
+  Net Income Growth: -0.07206127543328752
+  Net Income Growth_lag4: 2.7285519974017977e-07
+Component 5: 0.999999999803092
+  Net Income Growth_lag5: -0.7343206980436167
+  Net Income Growth_lag4: 0.6741205632639529
+  Retained Earnings_lag4: 0.055121595825151956
+  Retained Earnings_lag5: -0.05342594991736573
+  Other Current Assets_lag1: 0.011255083128412785
+
+
+Brand: GM
+Component 1: 0.29850567745846446
+  Other Long-Term Assets_lag2: -0.9747222809266028
+  Other Long-Term Assets_lag5: 0.1932717836074394
+  Other Long-Term Assets_lag3: 0.07747235743443337
+  Net Cash / Debt Growth_lag2: -0.0443744122805823
+  Other Long-Term Assets_lag4: 0.039165965938058225
+Component 2: 0.5482660291123485
+  Other Long-Term Assets_lag5: -0.9509305725996765
+  Other Long-Term Assets_lag4: 0.21173637236606577
+  Other Long-Term Assets_lag2: -0.16921775297921252
+  Other Long-Term Assets_lag3: 0.13429500308061582
+  Net Cash / Debt Growth_lag5: -0.04271469166059762
+Component 3: 0.7768207225909916
+  Other Long-Term Assets_lag4: -0.7753648184397334
+  Other Long-Term Assets_lag3: 0.6212411114412221
+  Other Long-Term Assets_lag5: -0.0843552537021496
+  Net Cash / Debt Growth_lag4: -0.03546834472295628
+  Net Cash / Debt Growth_lag3: 0.031305382116635055
+Component 4: 0.9910450832476738
+  Other Long-Term Assets_lag3: -0.7641098347103804
+  Other Long-Term Assets_lag4: -0.5888803594882391
+  Other Long-Term Assets_lag5: -0.21593591012508934
+  Other Long-Term Assets_lag2: -0.12721937497068164
+  Net Cash / Debt Growth_lag3: -0.03890261271784842
+Component 5: 0.9924409467922047
+  Effective Tax Rate_lag4: -0.4934970716963397
+  Effective Tax Rate_lag5: -0.4668263329581823
+  Net Cash Per Share: 0.4107356097752223
+  Net Cash / Debt: 0.3937504679448935
+  Net Cash / Debt Growth: 0.23485555372594877
+
+
+Brand: TSLA
+Component 1: 0.5451081881728408
+  Net Income Growth_lag3: 0.6302168111951062
+  Net Income Growth_lag4: 0.5870304763529905
+  Net Income Growth_lag5: 0.48921397141168305
+  Free Cash Flow Growth_lag5: 0.09004622491959291
+  Free Cash Flow Growth_lag4: 0.06059810704009056
+Component 2: 0.7666991412658615
+  Net Income Growth_lag5: 0.6941695926200737
+  Net Income Growth_lag3: -0.6866150552701717
+  Net Income Growth_lag4: 0.17926745577081973
+  Free Cash Flow Growth_lag5: -0.07164047985809659
+  Other Investing Activities_lag1: 0.07098712803602397
+Component 3: 0.9116278503329718
+  Net Income Growth_lag4: 0.7801060031389998
+  Net Income Growth_lag5: -0.5237283572329448
+  Net Income Growth_lag3: -0.31377207231494975
+  Other Investing Activities_lag2: -0.08551832318982083
+  Operating Cash Flow Growth_lag5: 0.061446753543297906
+Component 4: 0.9286991105209579
+  Current Debt: 0.79858813607977
+  Current Debt_lag2: 0.4451370674376632
+  Current Debt_lag1: -0.22534921020372406
+  Current Debt_lag3: -0.22523419152271232
+  Current Debt_lag4: 0.10327468668734678
+Component 5: 0.9416381985221516
+  Current Debt_lag3: 0.6187731710417166
+  Current Debt_lag1: 0.6125654858263567
+  Current Debt: 0.3307635469976861
+  Investing Cash Flow_lag1: -0.14498198392112924
+  Free Cash Flow Growth_lag3: -0.11768271926003035
+
+
+Brand: RACE
+Component 1: 0.17479828395915775
+  EPS (Diluted): 0.9490797072775984
+  EPS (Diluted)_lag3: -0.12237141555117129
+  Debt Issued / Paid_lag2: 0.094130184817602
+  EBITDA: 0.08564896240459667
+  EPS (Diluted)_lag4: -0.08427326472356547
+Component 2: 0.3113631253768327
+  EPS (Diluted)_lag3: 0.6847592381624555
+  EPS (Diluted)_lag4: -0.4198633018663526
+  EPS Growth_lag1: 0.28315721523258186
+  Net Income Growth_lag1: 0.2284257912929914
+  Dividend Growth: 0.17381093026773367
+Component 3: 0.4325122762679138
+  EPS (Diluted)_lag4: 0.5659443430469775
+  EPS (Diluted)_lag5: -0.37395783594085513
+  EPS (Diluted)_lag3: 0.3675051505855787
+  EPS (Diluted)_lag2: -0.2723761863945561
+  EPS Growth_lag2: 0.25644639214572507
+Component 4: 0.5478301444659074
+  EPS (Diluted)_lag2: 0.6727847839406103
+  EPS (Diluted)_lag5: -0.4268296872468133
+  EPS Growth: 0.27559415312499536
+  EPS Growth_lag3: -0.23554382599394144
+  Net Income Growth: 0.22317844506302575
+Component 5: 0.6509114488672104
+  EPS (Diluted)_lag1: -0.5078537055140064
+  EPS (Diluted)_lag5: 0.4522978657797565
+  EPS (Diluted)_lag2: 0.3290616677169417
+  EPS (Diluted)_lag4: 0.29913739444776977
+  EPS Growth_lag3: 0.2692774637458556
+
+
+Brand: TM
+Component 1: 0.1646170283056435
+  EPS Growth_lag1: 0.5701305515178465
+  Net Income Growth_lag1: 0.562322705454597
+  EPS Growth_lag2: 0.3100361612609069
+  Net Income Growth_lag2: 0.3057753976206121
+  EPS (Diluted)_lag3: 0.1877603530426015
+Component 2: 0.32750947398505637
+  EPS Growth_lag2: 0.5869448631508177
+  Net Income Growth_lag2: 0.5788837430950472
+  EPS Growth_lag1: -0.31531947799420335
+  Net Income Growth_lag1: -0.3109374659967842
+  EPS (Diluted)_lag4: 0.19394658930462672
+Component 3: 0.47884843615395756
+  EPS Growth_lag5: 0.6343070476317778
+  Net Income Growth_lag5: 0.6255938652028389
+  EPS Growth_lag3: -0.1996449707875183
+  Net Income Growth_lag3: -0.19684828151094236
+  EPS Growth: -0.17653741374565313
+Component 4: 0.6226892247745393
+  EPS Growth_lag3: 0.4902525089706677
+  Net Income Growth_lag3: 0.4835106910583044
+  EPS Growth: -0.445726314303025
+  Net Income Growth: -0.4336428949066447
+  EPS (Diluted)_lag5: 0.15939454946960147
+Component 5: 0.7620809628053025
+  EPS Growth: 0.4646503171034124
+  Net Income Growth: 0.4521072807536716
+  EPS Growth_lag3: 0.4109188773747498
+  Net Income Growth_lag3: 0.40533002527898176
+  EPS Growth_lag5: 0.26280595500709447
+
+
+Brand: HMC
+Component 1: 0.11999458425856437
+  Debt Growth: -0.9173516511386917
+  EPS Growth_lag5: -0.23300695686242953
+  Net Income Growth_lag5: -0.2249438731931744
+  Debt Growth_lag3: 0.1323537888556851
+  EPS Growth_lag4: -0.06665870445165203
+Component 2: 0.23079239245194527
+  Debt Growth_lag1: -0.9564677583112151
+  Debt Growth_lag4: 0.2436769155790316
+  Effective Tax Rate_lag4: -0.057450740703165346
+  Debt Growth: 0.056261564413614705
+  EPS Growth_lag4: 0.041723997941840105
+Component 3: 0.32184219135669695
+  Debt Growth_lag5: -0.6903684706929157
+  PE Ratio_lag4: -0.36393328900679783
+  EPS Growth_lag2: -0.25339126642350585
+  EPS Growth_lag3: -0.23837197644669086
+  Debt Growth_lag2: 0.21165800207747376
+Component 4: 0.41013559708572916
+  Debt Growth_lag5: -0.5763723891349493
+  PE Ratio_lag4: 0.38370084225670814
+  EPS Growth_lag2: 0.35801452895356195
+  PE Ratio_lag3: 0.33094241682044956
+  Net Income Growth_lag2: 0.26334671535438275
+Component 5: 0.48924217417123966
+  PE Ratio_lag5: -0.44021961165168993
+  PE Ratio_lag3: 0.43148033916512835
+  Net Income Growth_lag1: 0.2789620833201214
+  EPS Growth_lag1: 0.27652442691000206
+  Debt Growth_lag5: 0.267690279738871
+
+PCA LAGS ALL STATIONARY:
+Brand: F
+Component 1: 0.2821216147617183
+  Net Income Growth_lag3: -0.9718191325982718
+  Net Income Growth_lag2: 0.2271784299350192
+  Net Income Growth_lag1: 0.050698367169963364
+  Net Income Growth: 0.03724526888242834
+  Operating Income_lag4: -3.3302234878482345e-07
+Component 2: 0.5484781799134861
+  Net Income Growth_lag2: -0.9669284488687011
+  Net Income Growth_lag3: -0.2174163443505865
+  Net Income Growth_lag1: 0.11158156286850263
+  Net Income Growth: 0.07300043016877016
+  Operating Income_lag3: -3.7045192355656616e-07
+Component 3: 0.7818491078228449
+  Net Income Growth_lag1: -0.9701164249238691
+  Net Income Growth: 0.22016441012104612
+  Net Income Growth_lag2: -0.08155829271506991
+  Net Income Growth_lag3: -0.06123723946768895
+  Operating Income_lag2: -3.7419001031674895e-07
+Component 4: 0.9999999997033602
+  Net Income Growth: -0.97201407379529
+  Net Income Growth_lag1: -0.2094119205925023
+  Net Income Growth_lag2: -0.08238677460278936
+  Net Income Growth_lag3: -0.06743669051074659
+  Operating Income_lag1: -3.936436846874988e-07
+Component 5: 0.9999999997821873
+  Net Income Growth_lag4: -0.897663374583801
+  Net Income Growth_lag5: 0.4314136829188078
+  Retained Earnings_lag4: -0.06271178554793792
+  Effective Tax Rate_lag4: -0.03124509507755834
+  Retained Earnings_lag5: 0.028963730532690003
+
+
+Brand: GM
+Component 1: 0.2912635735029286
+  Other Long-Term Assets_lag5: -0.9690359039131715
+  Other Long-Term Assets_lag2: 0.20978323410393526
+  Other Long-Term Assets_lag4: 0.09567371216937862
+  Debt Issued / Paid_lag2: 0.05689467022585669
+  Income Tax_lag5: -0.02640321377107993
+Component 2: 0.5328668850780911
+  Other Long-Term Assets_lag2: -0.9037795109154562
+  Other Long-Term Assets_lag4: 0.38457142750110074
+  Other Long-Term Assets_lag5: -0.15680689723318994
+  Net Cash / Debt Growth_lag2: -0.043697386415941813
+  Other Long-Term Assets_lag3: 0.04191145244983723
+Component 3: 0.7562359952500408
+  Other Long-Term Assets_lag4: -0.9101207181909158
+  Other Long-Term Assets_lag2: -0.3538768404259018
+  Other Long-Term Assets_lag5: -0.16438315083873706
+  Other Long-Term Assets_lag3: 0.09475328312941184
+  Debt Issued / Paid_lag1: 0.05839166175632176
+Component 4: 0.8940271718360199
+  Other Long-Term Assets_lag3: -0.9802453459584788
+  Debt Issued / Paid: 0.1164400783972743
+  Other Long-Term Assets_lag4: -0.06853803081958193
+  Other Long-Term Assets_lag2: -0.0674441629876199
+  Income Tax_lag3: -0.05670886538832488
+Component 5: 0.9100423995752973
+  Net Cash Flow_lag5: 0.7745388174509246
+  Gross Profit_lag3: 0.3718727731322531
+  Financing Cash Flow_lag3: -0.35796267755581646
+  Dividends Paid_lag3: 0.21267955327926127
+  Gross Margin_lag3: 0.19147749996297705
+
+
+Brand: TSLA
+Component 1: 0.16937462855650912
+  Debt Issued / Paid_lag1: -0.6287842161073367
+  Other Financing Activities_lag1: 0.45883797438596235
+  Other Financing Activities_lag5: -0.30663041746604924
+  Current Debt_lag1: 0.2818206295907874
+  Debt Issued / Paid_lag5: 0.2761671569937337
+Component 2: 0.3308587328265714
+  Debt Issued / Paid_lag4: -0.5626441135983536
+  Debt Issued / Paid: 0.4619280645260609
+  Other Financing Activities_lag4: 0.4449836996752171
+  Other Financing Activities: -0.3567430563464479
+  Current Debt: -0.20405961351128526
+Component 3: 0.4773530325139481
+  Debt Issued / Paid_lag2: -0.7462837137499729
+  Other Financing Activities_lag2: 0.46450431075567056
+  Current Debt_lag2: 0.2344235374517013
+  Investing Cash Flow: -0.2308955159156388
+  Current Debt_lag4: 0.22172616528179978
+Component 4: 0.6097914605488939
+  Debt Issued / Paid_lag3: -0.7193395308291531
+  Other Financing Activities_lag3: 0.5914557732525316
+  Current Debt_lag3: 0.174502496364289
+  Investing Cash Flow_lag1: -0.16832526885815077
+  Operating Cash Flow Growth_lag1: -0.10574986409370328
+Component 5: 0.714623293080428
+  Debt Issued / Paid: -0.5553739481640149
+  Debt Issued / Paid_lag4: -0.4125549604965781
+  Current Debt: 0.4000110283719451
+  Other Financing Activities_lag4: 0.38390228313779473
+  Current Debt_lag2: 0.2110502439158064
+
+
+Brand: RACE
+Component 1: 0.1752093981705777
+  EPS (Diluted): 0.44583851842438726
+  EPS (Basic): 0.3858181292349914
+  Net Income_x: 0.3736963659280872
+  Net Income_y: 0.3736963659280872
+  Other Operating Activities_lag1: -0.35734364953759634
+Component 2: 0.31208021861875107
+  EPS Growth: 0.2627493455136064
+  Other Operating Activities_lag4: -0.26136715124801857
+  EPS (Diluted)_lag3: 0.26116230034045246
+  Other Operating Activities_lag5: 0.24100869593157911
+  EPS Growth_lag1: -0.233003482111482
+Component 3: 0.4275717217720728
+  Other Financing Activities_lag5: 0.6852215178736529
+  Other Operating Activities_lag5: 0.23471731204925123
+  EPS Growth_lag1: -0.20922322982808952
+  EPS (Diluted)_lag4: -0.1896051911270589
+  Other Operating Activities_lag4: 0.18575550228369067
+Component 4: 0.5299252618496624
+  Other Financing Activities_lag5: 0.6241813606518997
+  Other Operating Activities_lag5: -0.21875897359046337
+  Other Operating Activities_lag4: -0.21188126264179585
+  EPS (Diluted)_lag3: 0.21092802830574062
+  Other Operating Activities: 0.20155199018562228
+Component 5: 0.6209548700889372
+  Other Operating Activities_lag2: -0.32121926219807745
+  EPS (Diluted)_lag1: 0.31765556870831957
+  EPS (Diluted)_lag2: -0.2951382702305935
+  Other Operating Activities_lag3: 0.27230344015059327
+  Net Income_x_lag1: 0.2480511774234712
+
+
+Brand: TM
+Component 1: 0.5499468669959818
+  Other Financing Activities_lag4: 0.9860227102006023
+  Other Financing Activities: 0.1416182871971494
+  Other Financing Activities_lag5: -0.05945120009183297
+  Net Cash Flow_lag5: 0.04210119288471201
+  Other Financing Activities_lag1: -0.024411632432898452
+Component 2: 0.7201928586002752
+  Other Financing Activities_lag5: 0.9653893949803194
+  Other Financing Activities_lag1: 0.22944230123781104
+  Other Financing Activities_lag4: 0.06459785332653245
+  Other Financing Activities_lag2: -0.04962629061262203
+  Other Financing Activities_lag3: -0.04605010766619201
+Component 3: 0.7626607845959216
+  Other Financing Activities_lag2: 0.7965733517753415
+  Other Financing Activities_lag3: -0.549637346137596
+  Share Issuance / Repurchase_lag5: -0.1868855604123587
+  Other Financing Activities: -0.13427361851453706
+  Share Issuance / Repurchase_lag2: 0.04252671639924466
+Component 4: 0.8020049938455536
+  Other Financing Activities: 0.7655373055937482
+  Other Financing Activities_lag3: -0.5490446381139091
+  Other Financing Activities_lag2: -0.2248146294831501
+  Share Issuance / Repurchase_lag3: -0.18126811042039856
+  Other Financing Activities_lag4: -0.1256316772271529
+Component 5: 0.8368148546775096
+  Other Financing Activities_lag3: 0.601611987647153
+  Other Financing Activities: 0.5448589394352313
+  Other Financing Activities_lag2: 0.4609258950711986
+  Share Issuance / Repurchase_lag5: -0.21915250533257197
+  Share Issuance / Repurchase_lag3: -0.1862986106091327
+
+
+Brand: HMC
+Component 1: 0.15543548628791404
+  Other Investing Activities_lag2: -0.9456593585613158
+  Other Investing Activities_lag3: 0.3074358949714611
+  Other Investing Activities_lag1: 0.06578208869706872
+  Other Investing Activities: 0.05649643191447359
+  Other Investing Activities_lag4: 0.04832163303368534
+Component 2: 0.30445123964460474
+  Other Investing Activities_lag3: -0.9319644512940968
+  Other Investing Activities_lag2: -0.2809685972344994
+  Other Investing Activities_lag1: 0.1675605206805173
+  Other Investing Activities_lag5: 0.09927087498624895
+  Other Investing Activities_lag4: 0.09854864165640789
+Component 3: 0.4404884694200838
+  Other Investing Activities_lag1: -0.9153581263365259
+  Other Investing Activities_lag5: 0.35459589999974794
+  Other Investing Activities: 0.12437600278856155
+  Other Investing Activities_lag3: -0.08743845920890743
+  Other Investing Activities_lag4: 0.07922970539548359
+Component 4: 0.5743801491224606
+  Other Investing Activities_lag5: -0.7152163617402647
+  Other Investing Activities: 0.6698838574035579
+  Other Investing Activities_lag1: -0.17641841077237094
+  Other Investing Activities_lag3: -0.057840706480032804
+  Other Investing Activities_lag4: 0.05524781150585817
+Component 5: 0.7044967817870134
+  Other Investing Activities_lag4: -0.7900641125640012
+  Other Investing Activities: 0.48056891769593013
+  Other Investing Activities_lag5: 0.3547246608027151
+  Other Investing Activities_lag1: 0.13328649089438557
+  Other Expense / Income: 0.018464734013519668
+
+PCA NO LAGS ALL STATIONARY:
+Brand: F
+Component 1: 0.999999999829621
+  Net Income Growth: -0.9999999999999775
+  Other Current Liabilities: -1.0120009444799331e-07
+  Other Current Assets: 9.820325093763373e-08
+  Income Tax: -7.360292289318229e-08
+  Retained Earnings: 5.43614075848705e-08
+Component 2: 0.9999999999109624
+  Other Current Assets: -0.9996667809541617
+  Other Current Liabilities: 0.020918589036069437
+  Operating Cash Flow: 0.0055368354838662365
+  Retained Earnings: 0.005169638202356819
+  Operating Expenses: -0.003982956142824897
+Component 3: 0.999999999968142
+  Other Current Liabilities: 0.9977356434210618
+  Selling, General & Admin: 0.038796778933907934
+  Other Investing Activities: -0.02443332132258521
+  Total Current Liabilities: 0.021675889187772655
+  Other Current Assets: 0.02089941297209474
+Component 4: 0.9999999999808845
+  Operating Cash Flow: -0.9985529135350657
+  Other Investing Activities: -0.02745914496010609
+  Retained Earnings: 0.017876321832041905
+  Comprehensive Income: -0.01776740079189058
+  EBIT Margin: -0.01565988462213405
+Component 5: 0.9999999999875475
+  Retained Earnings: -0.9897060681489842
+  Effective Tax Rate: -0.11019343734081738
+  Income Tax: -0.0577784132071646
+  Interest Expense / Income: -0.0314069057232777
+  Gross Margin: 0.026886088579066027
+
+
+Brand: GM
+Component 1: 0.9177063894050606
+  Other Long-Term Assets: -0.9978857591949706
+  Net Cash / Debt Growth: -0.04430775486891681
+  Income Tax: -0.03467323513973454
+  Operating Expenses: 0.018874405236417292
+  Pretax Income: -0.011644551558440916
+Component 2: 0.9402069584733552
+  Financing Cash Flow: -0.6183942867676532
+  Dividends Paid: 0.5168400197376969
+  Gross Profit: 0.4928196811828464
+  Gross Margin: 0.29209005032666996
+  Debt Issued / Paid: -0.0907707133643103
+Component 3: 0.9513538125133338
+  Net Cash Flow: 0.9256970523562867
+  Net Income Growth: 0.2882845380069967
+  Other Operating Activities: -0.1581798363253981
+  Debt Growth: -0.07827064944123263
+  Debt Issued / Paid: -0.05933400728326791
+Component 4: 0.9617194295530799
+  Net Income Growth: -0.6354523609291725
+  Other Operating Activities: 0.3465853222576809
+  Free Cash Flow Margin_x: 0.3077690886874457
+  Free Cash Flow Margin_y: 0.3077690886874457
+  Free Cash Flow: 0.28732066488224045
+Component 5: 0.9714949900912897
+  Net Income Growth: -0.5158738175005155
+  Free Cash Flow Margin_x: -0.3636301556937049
+  Free Cash Flow Margin_y: -0.3636301556937049
+  Free Cash Flow: -0.3397049102905736
+  Net Cash Flow: 0.27095228990841536
+
+
+Brand: TSLA
+Component 1: 0.49916190952741424
+  Net Cash / Debt Growth: 0.999338287990513
+  Debt Issued / Paid: 0.028242072431389702
+  Other Financing Activities: -0.01494731681940063
+  Current Debt: -0.009730876527551365
+  Cash Growth: 0.005719119937239502
+Component 2: 0.8678581621576045
+  Debt Issued / Paid: -0.7227963142797145
+  Other Financing Activities: 0.650197556271935
+  Current Debt: 0.21843863720960346
+  Financing Cash Flow: 0.07289772282221602
+  Net Cash / Debt Growth: 0.032452381368592215
+Component 3: 0.9109924357268692
+  Current Debt: 0.8611579242822625
+  Other Financing Activities: -0.4645595347960392
+  Debt Issued / Paid: -0.1513261157521561
+  Investing Cash Flow: 0.08951569468216992
+  Operating Cash Flow Growth: 0.0662366467250249
+Component 4: 0.9406775570063824
+  Investing Cash Flow: -0.6998002452261394
+  Operating Cash Flow Growth: -0.6979694601861599
+  Current Debt: 0.13655429179496545
+  Financing Cash Flow: -0.039801584948706316
+  Debt Issued / Paid: 0.033356049359861355
+Component 5: 0.9641482560208406
+  Debt Issued / Paid: -0.6423749150886406
+  Other Financing Activities: -0.5882840348444889
+  Current Debt: -0.4331870303432994
+  Financing Cash Flow: 0.16922560013643143
+  Debt Growth: 0.09144233075956981
+
+
+Brand: RACE
+Component 1: 0.46331387398882673
+  EPS (Diluted): 0.5587747636561301
+  Net Income_x: 0.4021173280835046
+  Net Income_y: 0.4021173280835046
+  EPS (Basic): 0.40065210958229974
+  EBIT: 0.24726675231244616
+Component 2: 0.6717508683857931
+  Other Financing Activities: 0.9749620597466763
+  EPS Growth: -0.15713022676601088
+  Net Income Growth: -0.13487105942520083
+  Other Operating Activities: 0.054949988066889104
+  Market Cap Growth: 0.023124162046769224
+Component 3: 0.8258451210822132
+  EPS Growth: 0.7117595447241905
+  Net Income Growth: 0.6034452232701724
+  Other Operating Activities: -0.2553235386170392
+  Other Financing Activities: 0.2108200802085804
+  Dividend Growth: 0.06324096141815479
+Component 4: 0.932572675143225
+  Other Operating Activities: -0.9391195085303359
+  EPS Growth: -0.20200469735589294
+  Net Income Growth: -0.18537553647994298
+  Revenue Growth (YoY): 0.15643176216947777
+  Debt Issued / Paid: 0.07865117067056138
+Component 5: 0.9706969831515121
+  Effective Tax Rate: -0.7227857062081747
+  Income Tax: -0.6476768748444636
+  EPS (Diluted): 0.10151112779504116
+  Revenue Growth (YoY): 0.09630222037240066
+  Net Income_y: 0.07396473909644606
+
+
+Brand: TM
+Component 1: 0.9418939754275718
+  Other Financing Activities: 0.9999724862613547
+  Debt Issued / Paid: -0.004055520044096234
+  Change in Investments: -0.004036917076331895
+  Dividend Growth: 0.003242108968053276
+  Share Issuance / Repurchase: 0.0016369137493024092
+Component 2: 0.9811594842801817
+  Share Issuance / Repurchase: 0.9994047796379644
+  Market Cap Growth: 0.02407770296643112
+  Other Investing Activities: 0.02176348670198644
+  PE Ratio: -0.006143322381280271
+  Operating Cash Flow Growth: 0.005905659780896005
+Component 3: 0.9932477108831842
+  Change in Investments: 0.9752524609868733
+  Operating Income: 0.14002744274448134
+  Other Investing Activities: -0.13089910941807345
+  Operating Margin: 0.0971319643141233
+  Dividend Growth: 0.023083860042828603
+Component 4: 0.9953015589289643
+  Net Cash Flow: 0.9946802774317882
+  Effective Tax Rate: -0.053557399349432024
+  EPS (Diluted): -0.03737623284426227
+  EPS (Basic): -0.037271807386811205
+  Net Income_y: -0.037252337595086345
+Component 5: 0.9965462101792115
+  EPS (Diluted): 0.49533534169505083
+  EPS (Basic): 0.49390552229856005
+  Net Income_x: 0.49360580531009435
+  Net Income_y: 0.49360580531009435
+  Investing Cash Flow: -0.10186719403718168
+
+
+Brand: HMC
+Component 1: 0.8725102043158488
+  Other Investing Activities: -0.9999899600159312
+  Operating Cash Flow: -0.0014612397489420505
+  Property, Plant & Equipment: 0.0012978131499762429
+  PE Ratio: 0.0011346953813100068
+  Market Cap Growth: 0.0010636754468060707
+Component 2: 0.9152393312883298
+  Depreciation & Amortization_y: 0.7063241127352535
+  Depreciation & Amortization_x: 0.7063241127352533
+  Other Financing Activities: 0.034305142575263584
+  Gross Margin: 0.015689771834248793
+  Effective Tax Rate: 0.011467012500428513
+Component 3: 0.9329495537936244
+  Debt Growth: -0.9961217199134584
+  Operating Cash Flow: -0.06216411530252646
+  Other Financing Activities: -0.025977176054679554
+  Effective Tax Rate: -0.017346002837124633
+  PE Ratio: -0.014745038562685766
+Component 4: 0.9461446785812548
+  Other Financing Activities: -0.9845071098906116
+  Operating Cash Flow: -0.06937816099127254
+  Free Cash Flow Per Share_x: -0.06250910381465341
+  Free Cash Flow Per Share_y: -0.0625091038146534
+  Free Cash Flow: -0.062489739459025126
+Component 5: 0.9555212820589611
+  EPS Growth: -0.6942466743605415
+  Net Income Growth: -0.6798451100463627
+  Market Cap Growth: 0.11511409498132381
+  Effective Tax Rate: -0.11303188635711371
+  PE Ratio: -0.06561546605238854
