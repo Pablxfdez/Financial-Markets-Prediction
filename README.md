@@ -29,6 +29,9 @@ Este es el cuaderno Jupyter que contiene el código para el procesamiento de dat
 ### 2. Modelos_ArchivoFinal.ipynb
 Este cuaderno Jupyter contiene el código para la construcción y evaluación de los modelos de aprendizaje automático. Incluye desde la aplicación de ACP y Lasso a nuestros conjuntos de entrada (aplicando una búsqueda en rejilla de los hiperparámetros para optimizarlos), las funciones auxiliares para dividir el set en entrenamiento y test, para el escalado y la reducción de dimensionalidad, la transformación de incremento porcentual a valor nominal y la creación de un dataframe (result_df) con la predicción y los valores reales nominales, así como la implementación de la red LSTM, XGboost, Random Forest y Regresión lineal, junto a la optimización de parámetros de los dos primeros 
 
+## Otros Archivos
+### 1. Resultados_Lasso_ACP.txt
+En este archivo de texto se muestra la ejecución al aplicar el código para la reducción de dimensionalidad. Se muestra lo impreso por la terminal referente a las variables elegidas por Lasso sin y con retardos, y lo mismo para ACP.
 
 Si tienes alguna pregunta sobre este repositorio o el trabajo en general, no dudes en contactarme.
 
