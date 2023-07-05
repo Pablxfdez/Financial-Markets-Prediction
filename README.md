@@ -32,6 +32,8 @@ Este cuaderno Jupyter contiene el código para la construcción y evaluación de
 ## Otros Archivos
 ### 1. Resultados_Lasso_ACP.txt
 En este archivo de texto se muestra la ejecución al aplicar el código para la reducción de dimensionalidad. Se muestra lo impreso por la terminal referente a las variables elegidas por Lasso sin y con retardos, y lo mismo para ACP.
+### 2. FernándezdelAmoPablo_TFG.pdf
+Memoria del TFG, en la que se muestra tanto el marco teórico del desarrollo del trabajo como los resultados obtenidos.
 
 Si tienes alguna pregunta sobre este repositorio o el trabajo en general, no dudes en contactarme.
 
