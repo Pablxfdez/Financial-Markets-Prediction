@@ -26,7 +26,7 @@ Esta carpeta contiene los datos originales que se han procesado y combinado para
 ### 1. Data_Processing.ipynb
 Este es el cuaderno Jupyter que contiene el código para el procesamiento de datos. Contiene desde la importación de archivos de Merged_Data, hasta la creación de los indicadores financieros y la variable objetivo. Además se muestran los resultados del estudio de la estacionariedad y de valores atípicos. Se finaliza con la creación de retardos y una serie de visualizaciónes útiles que se incluyeron en la memoria del trabajo.
 
-### 2. Modelos_ArchivoFinal.ipynb
+### 2. Models_Archivo_Final.ipynb
 Este cuaderno Jupyter contiene el código para la construcción y evaluación de los modelos de aprendizaje automático. Incluye desde la aplicación de ACP y Lasso a nuestros conjuntos de entrada (aplicando una búsqueda en rejilla de los hiperparámetros para optimizarlos), las funciones auxiliares para dividir el set en entrenamiento y test, para el escalado y la reducción de dimensionalidad, la transformación de incremento porcentual a valor nominal y la creación de un dataframe (result_df) con la predicción y los valores reales nominales, así como la implementación de la red LSTM, XGboost, Random Forest y Regresión lineal, junto a la optimización de parámetros de los dos primeros 
 
 ## Otros Archivos
