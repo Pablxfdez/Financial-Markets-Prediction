@@ -6,16 +6,17 @@ Este repositorio contiene todos los archivos y el código fuente utilizados en m
 ## Carpetas
 
 ### 1. DataSet
-Contiene los conjuntos de datos originales utilizados en el estudio. Estos datos se utilizaron como base para los análisis y los modelos de predicción realizados.
+Contiene los conjuntos de datos originales utilizados en el estudio. Estos datos se utilizaron como base para los análisis y los modelos de predicción realizados. Esta carpeta está compuesta a su vez de subcarpetas correspondientes a cada empresa. Cada una de estas carpetas cuenta con archivos .csv referentes a los datos de cotización y capitalización diarios, así como datos trimestrales sobre balance, ratios, beneficios 
+y flujo de fondos. 
 
 ### 2. Estacionariedad
-Esta carpeta contiene los resultados del análisis de estacionariedad. Esencial para el preprocesamiento de datos en la modelización de series temporales, este análisis asegura que los datos cumplan con los supuestos necesarios para los modelos de predicción.
+Esta carpeta contiene los resultados del análisis de estacionariedad. Esencial para el preprocesamiento de datos en la modelización de series temporales, este análisis asegura que los datos cumplan con los supuestos necesarios para los modelos de predicción. En esta carpeta se encuentran los .xlsx donde se han almacenado los resultados del test ADF, junto al resto, antes y después de la conversión a estacionario. Asimismo encontramos los archivos .xlsx y .csv de los conjuntos de datos estacionarios.
 
 ### 3. Figuras TFG
-Aquí se encuentran todas las figuras y gráficos generados durante el estudio. Estos gráficos ilustran los resultados y hallazgos clave obtenidos durante el análisis.
+Aquí se encuentran todas las figuras y gráficos generados durante el estudio. Estos gráficos ilustran los resultados y hallazgos clave obtenidos durante el análisis. El resto de gráficos no incluidos en la memoria del TFG se pueden encontrar en los notebooks de jupyter.
 
 ### 4. Hypertunning
-Esta carpeta contiene los resultados del ajuste de hiperparámetros. El ajuste de hiperparámetros es una parte crítica de la construcción de modelos de aprendizaje automático y mejora su rendimiento y precisión.
+Esta carpeta contiene los resultados del ajuste de hiperparámetros para la red LSTM. En ella encontramos los resultados preliminares para cuatro de las seis empresas estudiadas. De las otras dos decidimos quedarnos sólo con la mejor combinación en vez de generar los .xlsx, por eficiencia computacional. Sobre estos resultados se hicieron pequeñas modificaciones en busca de mayor eficiencia
 
 ### 5. Merged_Data
 Esta carpeta contiene los datos originales que se han procesado y combinado para su análisis. Estos son los datos previos a los obtenidos en la carpeta de estacionariedad.
@@ -23,14 +24,11 @@ Esta carpeta contiene los datos originales que se han procesado y combinado para
 ## Archivos Jupyter Notebook
 
 ### 1. Data_Processing.ipynb
-Este es el cuaderno Jupyter que contiene el código para el procesamiento de datos. El procesamiento de datos es un paso vital que implica limpiar, transformar y preparar los datos para el análisis.
+Este es el cuaderno Jupyter que contiene el código para el procesamiento de datos. Contiene desde la importación de archivos de Merged_Data, hasta la creación de los indicadores financieros y la variable objetivo. Además se muestran los resultados del estudio de la estacionariedad y de valores atípicos. Se finaliza con la creación de retardos y una serie de visualizaciónes útiles que se incluyeron en la memoria del trabajo.
 
 ### 2. Modelos_ArchivoFinal.ipynb
-Este cuaderno Jupyter contiene el código para la construcción y evaluación de los modelos de aprendizaje automático. Incluye el ajuste de hiperparámetros, la validación cruzada y el análisis de los resultados.
+Este cuaderno Jupyter contiene el código para la construcción y evaluación de los modelos de aprendizaje automático. Incluye desde la aplicación de ACP y Lasso a nuestros conjuntos de entrada (aplicando una búsqueda en rejilla de los hiperparámetros para optimizarlos), las funciones auxiliares para dividir el set en entrenamiento y test, para el escalado y la reducción de dimensionalidad, la transformación de incremento porcentual a valor nominal y la creación de un dataframe (result_df) con la predicción y los valores reales nominales, así como la implementación de la red LSTM, XGboost, Random Forest y Regresión lineal, junto a la optimización de parámetros de los dos primeros 
 
-## Otros archivos
-
-### README.md
-Este archivo proporciona una descripción general del repositorio, describiendo su contenido y proporcionando detalles esenciales. Este archivo sirve como punto de partida para comprender el propósito y la estructura del repositorio.
 
 Si tienes alguna pregunta sobre este repositorio o el trabajo en general, no dudes en contactarme.
+
