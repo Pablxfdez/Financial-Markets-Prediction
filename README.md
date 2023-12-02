@@ -1,4 +1,4 @@
-# Final Degree Project (TFG) Repository
+# Financial Markets Prediction Study: An Approach with Time Series and Machine Learning
 
 This repository contains all the files and source code used in my Final Degree Project (TFG). Below is a detailed description of each folder and file present in the repository:
 
